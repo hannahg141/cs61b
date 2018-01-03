@@ -1,0 +1,39 @@
+
+HW #5.
+
+Question D.
+
+1. Omega: x^2, Oh: x^2, big theta: x^2
+
+
+2. omega: log x, oh: log x, big theta: x
+
+
+3. big oh: x^2, omega: x
+
+
+4. theta(N + M)
+
+
+5. theta(n log n)
+
+
+6. also quite confused but M =< x < K
+    if we convert the bases to the same values all are less than 10 anyway and are
+    therefore smaller than base 10 when computed
+    AND the constant K makes the right larger anyway because K < x.
+
+
+
+7. log p(x) is in log x
+
+    if p(x) = log(yx^2)
+            = 2log(x) + log(y)
+            = log(x) + log(y)
+    there must be a constant y where log(x) > log(y)
+    therefore true.
+
+
+8. i genuinely don't understand this and I am very confused but I think that whatever
+    f(n) returns it gets rounded up to its largest value and then it must be in the
+    scope of that initial function
